@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <title>Whatsapp - Siya Ram</title>
 </head>
 <body>
@@ -63,14 +66,40 @@
                 <p>* Data charges may apply. Contact your provider for details.</p>
             </section>
 
-
+ 
 
             <section class="secondSection">
-                <img src="whatsApp/section1img.png" alt="">
-                <p>With private messaging and calling, you can <br>be yourself, speak freely and feel close to the <br>most important people in your life no matter <br>where they are.</p>
-                <img src="whatsApp/section2img.png" alt="">
+                <img     data-aos="fade-up"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="true" src="whatsApp/section1img.png" alt="">
+
+                <p     data-aos="fade-up"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="true">With private messaging and calling, you can <br>be yourself, speak freely and feel close to the <br>most important people in your life no matter <br>where they are.</p>
+                
+                 <img     data-aos="fade-up"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="true" src="whatsApp/section2img.png" alt="">
             </section>
             
     </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
 </body>
 </html>
