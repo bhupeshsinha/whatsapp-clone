@@ -436,7 +436,7 @@
 }
 
 
-.beach{
+.beach, .groupchat{
     position: relative;
 }
 
@@ -445,5 +445,13 @@
     width: 330px;
     top: 27%;
     right: 0%;
+    position: absolute;
+}
+
+
+.groupchat img:nth-child(2){
+    width: 330px;
+    top: 14%;
+    right: -5%;
     position: absolute;
 }
