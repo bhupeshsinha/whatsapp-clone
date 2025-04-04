@@ -434,3 +434,16 @@
 .thirdSection{
     overflow: hidden;
 }
+
+
+.beach{
+    position: relative;
+}
+
+
+.beach img:nth-child(2){
+    width: 330px;
+    top: 27%;
+    right: 0%;
+    position: absolute;
+}
