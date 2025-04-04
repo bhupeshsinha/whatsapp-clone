@@ -375,6 +375,7 @@
     justify-content: center;
     align-items: center;
     gap: 200px;
+    /* overflow: hidden; */
 }
 
 
@@ -394,6 +395,8 @@
 
 .learnMore{
     position: relative;
+    /* display: flex;
+    align-items: center; */
 }
 
 
@@ -401,7 +404,7 @@
     display: inline-block;
     padding-top: 40px;
     font-size: 16px;
-
+    /* width: 100px; */
     /* text-decoration: 2px underline #25D366; */
 }
 
@@ -409,5 +412,25 @@
 .learnMore::before{
     position: absolute;
     content: "";
+    width: 23%;
+    bottom: 0%;
+    height: 2px;
     background-color: #25D366;
+}
+
+
+.learnMore > img{
+    margin-left: 10px;
+    rotate: 180deg;
+}
+
+
+.learnMore :hover
+{
+    color: #25D366;
+}
+
+
+.thirdSection{
+    overflow: hidden;
 }
