@@ -537,6 +537,11 @@ li{
 }
 
 
+li:hover{
+     text-decoration: 1px underline white;
+}
+
+
 hr{
     color: white;
     width: 55%;
