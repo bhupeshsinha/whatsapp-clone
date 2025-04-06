@@ -25,7 +25,7 @@
     padding: 20px 40px;
 
     width: 100vw;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(15px);
     position: fixed;
     border-bottom: 1px solid #cec9c1;
     /* background-color: #fcf5eb; */
