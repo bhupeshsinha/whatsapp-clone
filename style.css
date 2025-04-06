@@ -608,6 +608,8 @@ hr{
 
 
 .social{
+    overflow: hidden;
+    position: relative;
     width: 40%;
     display: flex;
     justify-content: space-evenly;
@@ -617,13 +619,18 @@ hr{
 
 
 .social > i{
+    z-index: 1;
     border: 1px solid white;
     padding: 15px;
     border-radius: 100%;
 }
 
 
-
+.socialMedia:hover{
+    transition: 0.3s 0.2s;
+    background-color: #25D366;
+    border-color: #111b2100;
+}
 
 
 select{
