@@ -171,7 +171,7 @@
     display: flex;
     justify-content: space-evenly;
     margin-top: 80px;
-    padding: 0 180px;
+    /* padding: 0 180px; */
     align-items: center;
     border-radius: 25px;
     background-image: url(whatsApp/MaaBeti.png);
@@ -193,7 +193,7 @@
 .right{
     margin-top: 8%;
     position: relative;
-    width: 30%;
+    width: 50%;
     height: 100%;
 }
 
@@ -354,6 +354,7 @@
 
 
 .left{
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 9 0px;
@@ -628,7 +629,38 @@ select{
 }
 
 
-/* .angle{
+.angle{
     right: 20px;
     position: absolute;
-} */
+}
+
+
+.navbar2{
+    display: none;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+    .navbar {
+        display: none; 
+    }
+    
+    .navbar2{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .btn2{
+        background-color: #25D366;
+        border-radius: 50%;
+        width:  30px;
+        height: 30px;
+    }
+
+    .whatsappLogo2{
+        width: 23%;
+    }
+}
