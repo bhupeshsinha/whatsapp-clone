@@ -169,7 +169,7 @@
 .maaBeti{
     overflow: hidden;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-top: 80px;
     /* padding: 0 180px; */
     align-items: center;
@@ -193,7 +193,7 @@
 .right{
     margin-top: 8%;
     position: relative;
-    width: 50%;
+    width: 500px;
     height: 100%;
 }
 
@@ -354,7 +354,7 @@
 
 
 .left{
-    width: 50%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     gap: 9 0px;
