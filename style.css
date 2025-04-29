@@ -663,4 +663,43 @@ select{
     .whatsappLogo2{
         width: 23%;
     }
+
+    .right img:nth-child(4) {
+        display: none;
+    }
+
+    .right img:nth-child(5), .right img:nth-child(6),.right img:nth-child(7) {
+        display: none;
+    }
+
+    .maaBeti {
+        overflow: hidden;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        margin-top: 80px;
+        /* padding: 0 180px; */
+        align-items: center;
+        border-radius: 25px;
+        background-image: url(whatsApp/MaaBeti.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 600px;
+        /* width: 100%; */
+    }
+
+
+    .leftMsg > h1 {
+        margin-bottom: 15px;
+        overflow-y: hidden;
+        letter-spacing: -3px;
+        line-height: 20px;
+        font-size: 1.9em;
+        font-weight: 300;
+    }
+
+    .right{
+        height: 200px;
+    }
 }
