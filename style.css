@@ -694,12 +694,46 @@ select{
         margin-bottom: 15px;
         overflow-y: hidden;
         letter-spacing: -3px;
-        line-height: 20px;
+        line-height: 40px;
         font-size: 1.9em;
         font-weight: 300;
     }
 
+    .leftMsg > p{
+        font-size: 13px;
+        width: 70%;
+    }
+
     .right{
+        width: 100%;
         height: 200px;
+    }
+
+
+    .left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .leftMsg {
+        color: white;
+    }
+
+    .navbar > button, .btn {
+        overflow: hidden;
+        position: relative;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 25px;
+        font-size: 18px;
+        border-radius: 60px;
+        background-color: #25D366;
+        bottom: none;
+        border: 0.1px solid black;
+        z-index: 1;
     }
 }
